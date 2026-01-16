@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-template-rows: 400px 400px 400px;
+    align-content: top;
+}
+.art1{
+    background-image: url(../images/pic01.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-column: span 1;
+    
+}
+
+.art2{
+    background-image: url(../images/pic02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-column: span 2;    
+}
+
+
+.art3{
+    background-image: url(../images/pic03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-column: span 2;   
+    
+}
+.art4{
+    background-image: url(../images/pic04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-column: span 1;   
+}
+.art5{
+    background-image: url(../images/pic05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-column: span 1;   
+}
+.art6{
+    background-image: url(../images/pic06.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-column: span 2;   
+}
+.art1>div{
+    background-color: #a3e5ff96;
+    height: 100%; 
+}
+.art2>div{
+    background-color:#8b7fbb82;
+    height: 100%; 
+}
+.art3>div{
+    background-color: #e48e8879;
+    height: 100%; 
+}
+.art4>div{
+    background-color:#d1a8837a;
+    height: 100%; 
+}
+.art5>div{
+    background-color: #7e98cf83;
+    height: 75%; 
+}
+.art6>div{
+    background-color: #83b79e80  ;
+    height: 75%; 
+}
+
+article>div{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    font-size: 1.5rem;
+}
+hr{
+    height: 1px;
+    margin-top: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+
+}
+
+article>div:hover{
+    background-color: transparent;
+    transition: 2s;
+    
+    
+}
+
+main>div{
+    height: 140vh;  
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    font-size: 2rem;
+    background-color: aqua;
+
+
+    
+}  
+.Raja{
+    height: 1%;
+
+  
+} 
+
